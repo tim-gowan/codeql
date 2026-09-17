@@ -2,4 +2,8 @@ module example.com/m
 
 go 1.14
 
-require github.com/gin-gonic/gin v1.6.2
+require (
+	github.com/gin-gonic/gin v1.9.1
+	github.com/ugorji/go v1.1.7 // indirect
+	gopkg.in/yaml.v2 v2.2.8 // indirect
+)
